@@ -1,4 +1,5 @@
 import java.time.LocalDateTime;
+import java.util.Date;
 
 public class Hello {
 
@@ -7,6 +8,9 @@ public class Hello {
 		
 		LocalDateTime dt=LocalDateTime.now();
 		System.out.println(dt);
+		
+		Date d=new Date();
+		System.out.println(d);
 	}
 
 }
